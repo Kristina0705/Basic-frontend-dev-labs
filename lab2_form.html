@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+        <meta charset="UTF-8">
+        <title>Регистрация </title>
+        <style>
+            .div_2{
+                display: inline-block;
+                margin: 0;
+                height: 80px;
+                width: 155px;
+            }
+            .div_1{
+                margin: 0;
+                width: 620px; 
+	            height: 80px;
+            }
+            select{
+                width: 126px;
+            }
+            button{
+                width: 90px; 
+	            height: 50px; 
+            }
+            .button_1{
+                background: LightSkyBlue;
+            }
+        </style>
+    </head>
+</html>
+<form>
+    <div class="div_1">
+        <small>Identification Number:</small><br><input type="text" size="30">
+    </div>
+    <div class="div_1">
+        <small>Legal name:</small><br><input type="text" size="90">
+    </div>
+    <div class="div_1">
+        <small>Address1:</small><br><input type="text" size="90">
+    </div>
+    <div class="div_1">
+        <small>Address2:</small><br><input type="text" size="90">
+    </div>
+    <div class="div_2">
+        <small>City:</small><br><input type="text" size="10">
+    </div>
+
+    <div class="div_2">
+        <small>State:</small><br><input type="text" size="10">
+    </div>
+
+    <div class="div_2">
+        <small>Zip:</small><br><input type="text" size="10">
+    </div>
+    
+    <div class="div_2">
+            <small>Country:</small><br>
+                <select>
+                    <option>United States</option>
+                    <option>Russia</option>
+            </select> 
+    </div>
+    <br>
+    
+    <div class="div_2">
+        <small>Phone:</small><br><input type="text" size="10">
+    </div>
+
+    <div class="div_2">
+        <small>Email:</small><br> 
+        <input type="email" size="10">
+    </div>
+
+    <div class="div_1">
+        <p align="right">
+        <button  type="reset"><small>Reset</small></button>
+        <button class="button_1" type="submit"><small>Submit</small></button></p>
+    </div>
+    
+</form>
+
