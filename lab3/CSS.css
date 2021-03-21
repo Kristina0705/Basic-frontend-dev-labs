@@ -1,0 +1,334 @@
+
+#wrapper{
+    width: 1625px;
+    margin: 0 auto;
+    outline: 1px solid #949191;
+}
+#base1{
+    outline: 1px solid #949191;
+    height: 132px;
+    margin-bottom: 0px;
+}
+#base2{
+    outline: 1px solid #949191;
+    background-color: rgb(76, 0, 255);
+    height: 2395px;
+    margin-left: 9px;
+    margin-right: 15px;
+}
+#base3{
+    outline: 1px solid #949191;
+    height: 150px;
+}
+#base21{
+    outline: 1px solid #949191;
+    height: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#base22{
+    outline: 1px solid #949191;
+    margin-top: 7px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 165px;
+    height: 2195px;
+    background-color: rgb(250, 250, 250);
+}
+#base22_1{
+    outline: 1px solid #949191;
+    height: 80px;
+    position: relative;
+}
+#base22_2{
+    height: 368px;
+    position: relative;
+}
+#base22_3{
+    height: 409px;
+    position: relative;
+    top:4px;
+}
+#base22_4{
+    outline: 1px solid #949191;
+    height: 437px;
+}
+#base22_5{
+    outline: 1px solid #949191;
+    height: 605px;
+    position: relative;
+}
+#base22_6{
+    outline: 1px solid #949191;
+    height: 292px;
+    position: relative;
+}
+#base221_1{
+    outline: 1px solid #949191;
+    position: absolute;
+    height: 31.81px;
+    width: 8.28px;
+    left: 37.09px;
+    top: 33.97px;
+    background: url(image/Rectangle-path.png);
+}
+#base221_2{
+    outline: 1px solid #949191;
+    height: 80px;
+    width: 110px;
+    background: url(image/Hover.png);
+    position: absolute;
+    left:547px;
+}
+#base221_3{
+    height: 32px;
+    width: 32px;
+    background: url(image/Search.png);
+    position: absolute;
+    left:1170.16px;
+    top: 37.16px;
+}
+#base221_4{
+    height: 42px;
+    width: 42px;
+    background: url(image/Oval.png);
+    position: absolute;
+    left:1223px;
+    top: 26px;
+}
+#base221_5{
+    height: 24px;
+    width: 21px;
+    background: url(image/Oval4.png);
+    position: absolute;
+    left:1253px;
+    top: 14px;
+}
+#base221_6{
+    height: 18px;
+    width: 16px;
+    background: url(image/8.png);
+    position: absolute;
+    left:1260px;
+    top: 20px;
+}
+#base221_7{
+    position: absolute;
+    height: 31.81px;
+    width: 25.55px;
+    left: 49.53px;
+    top: 33.97px;
+    background: url(image/Shape.png);
+}
+#base221_8{
+    position: absolute;
+    height: 31.81px;
+    width: 19.13px;
+    left: 77.5px;
+    top: 33.97px;
+    background: url(image/Shape1.png);
+}
+#base221_9{
+    position: absolute;
+    height: 31.81px;
+    width: 18.34px;
+    left: 99.26px;
+    top: 33.97px;
+    background: url(image/Shape2.png);
+}
+#base222_1{
+    position: absolute;
+    height: 369px;
+    width: 20px;
+    background: url(image/Rectangle5.png);
+}
+#base222_2{
+    position: absolute;
+    height: 368px;
+    width: 252px;
+    left: 20px;
+    background: url(image/Rectangle2.png);
+    background: url(image/Rectangle2Copy.png);
+    background: url(image/Object.png);
+    
+}
+#base222_3{
+    position: absolute;
+    height: 368px;
+    width: 252px;
+    left: 276px;
+    background: url(image/Rectangle2Copy.png);
+    background: url(image/Object1.png);
+    
+}
+#base222_4{
+    position: absolute;
+    height: 368px;
+    width: 252px;
+    left: 532px;
+    background: url(image/Rectangle2Copy.png);
+    background: url(image/Object2.png);
+    
+}
+#base222_5{
+    position: absolute;
+    height: 368px;
+    width: 252px;
+    left: 788px;
+    background: url(image/2.5.2.png);
+    background: url(image/2.5.1.png);     
+}
+#base222_6{
+    position: absolute;
+    height: 368px;
+    width: 242px;
+    left: 1044px;
+    background: url(image/Rectangle2Copy.png);
+    background: url(image/2.6.png); 
+}
+#base2226_1{
+    position: absolute;
+    height: 368px;
+    width: 36px;
+    right: 0px;
+    background: url(image/2.7.png); 
+}
+#base2226_2{
+    position: absolute;
+    height: 26px;
+    width: 11px;
+    right: 14.17px;
+    background: url(image/2.8.png); 
+    top: 171px;
+}
+#base223_1{
+    position: absolute;
+    height: 410px;
+    width: 20px;
+    background: url(image/3.1.png); 
+}
+#base223_2{
+    position: absolute;
+    height: 409px;
+    width: 510px;
+    background: url(image/3.2.png); 
+    left: 20px;
+}
+#base2232_1{
+    position: absolute;
+    height: 223px;
+    width: 158px;
+    background: url(image/Bourne.png); 
+    left: 13.41px;
+    top: 13.86px;
+}
+#base2232_2{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: url(image/Rectangle.png); 
+    left: 4px;
+    top: 325px;
+}
+#base2232_3{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: url(image/9.png); 
+    left: 88px;
+    top: 325px;
+}
+#base2232_4{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: url(image/10.png); 
+    left: 172px;
+    top: 325px;
+}
+#base2232_5{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: url(image/11.png); 
+    left:256px;
+    top: 325px;
+}
+#base2232_6{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: url(image/12.png); 
+    left:340px;
+    top: 325px;
+}
+#base2232_7{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: url(image/13.png); 
+    left:424px;
+    top: 325px;
+}
+#base2232_8{
+    position: absolute;
+    height: 21.94px;
+    width: 19.02px;
+    top: 14.06px;
+    left: 24px;
+    background: url(image/3.3.png); 
+}
+#base2232_9{
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    top: 155px;
+    right: 150px;
+    background: url(image/14.png); 
+}
+#base2232_9{
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    top: 155px;
+    right: 150px;
+    background: url(image/14.png); 
+}
+#base2232_10{
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    top: 155px;
+    right: 87px;
+    background: url(image/15.png); 
+}
+#base223_3{
+    position: absolute;
+    height: 409px;
+    width: 759px;
+    right: 0px;
+    background: url(image/Image.png); 
+}
+#base2233_1{
+    position: absolute;
+    height: 52px;
+    width: 52px;
+    right: 343.11px;
+    top:179px;
+    background: url(image/Play.png);
+}
+#base2233_2{
+    position: absolute;
+    height: 10px;
+    width: 126px;
+    right: 63.11px;
+    top:379px;
+    background: url(image/Pagination.png);
+}
+#base2233_3{
+    position: absolute;
+    height: 409px;
+    width: 36px;
+    right: 0px;
+    background: url(image/Next.png);
+}
