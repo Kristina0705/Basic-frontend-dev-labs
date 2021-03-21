@@ -36,7 +36,7 @@
 #base22_1{
     outline: 1px solid #949191;
     height: 80px;
-    position: absolute;
+    position: relative;
 }
 #base22_2{
     height: 368px;
