@@ -2,29 +2,27 @@
 #wrapper{
     width: 1625px;
     margin: 0 auto;
-    outline: 1px solid #949191;
 }
 #base1{
-    outline: 1px solid #949191;
-    height: 132px;
+    height: 20px;
     margin-bottom: 0px;
+    margin-left: 9px;
 }
 #base2{
-    outline: 1px solid #949191;
     background-color: rgb(76, 0, 255);
     height: 2395px;
     margin-left: 9px;
     margin-right: 15px;
 }
 #base3{
-    outline: 1px solid #949191;
+    
     height: 150px;
 }
 #base21{
-    outline: 1px solid #949191;
     height: 100px;
     margin-left: 150px;
     margin-right: 150px;
+    
 }
 #base22{
     outline: 1px solid #949191;
@@ -38,7 +36,7 @@
 #base22_1{
     outline: 1px solid #949191;
     height: 80px;
-    position: relative;
+    position: absolute;
 }
 #base22_2{
     height: 368px;
@@ -175,8 +173,7 @@
     height: 368px;
     width: 252px;
     left: 788px;
-    background: url(image/2.5.2.png);
-    background: url(image/2.5.1.png);     
+    background: url(image/Hover1.png);  
 }
 #base222_6{
     position: absolute;
@@ -331,4 +328,16 @@
     width: 36px;
     right: 0px;
     background: url(image/Next.png);
+}
+a{
+    text-decoration: none;
+    color: rgb(131, 127, 127);
+}
+a:active {
+    color: #0084ff; 
+}
+
+#text{
+    position: relative;
+    top: 82px;
 }
