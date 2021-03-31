@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="output.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"> 
+
+  <script language="javascript">
+   setTimeout(function(){
+   document.getElementById('loadding').style.display = 'none';
+    }, 5430);
+    </script>
+    <div id="loadding">
+    <div wire:loading class="fixed top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-hidden bg-gray-700 opacity-75 flex flex-col items-center justify-center">
+    <div class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mb-4"></div>
+    <h2 class="text-center text-white text-xl font-semibold">Загрузка...</h2>
+    <p class="w-1/3 text-center text-white">This may take a few seconds, please don't close this page.</p>
+    </div>
+    </div>
+
+    <style type="text/css">
+      .my_modal{position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,0.5);z-index:1050;display:none;margin:0;padding:0;}.my_modal:target{display:block;overflow-y:auto;}.my_modal-dialog{position:relative;width:auto;margin:10px;}@media (min-width:576px){.my_modal-dialog{max-width:460px;margin:30px auto;}}.my_modal-content{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid rgba(0,0,0,.2);border-radius:6px;outline:0;}@media (min-width:768px){.my_modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,.5);box-shadow:0 5px 15px rgba(0,0,0,.5);}}.my_modal-header{display:block;padding:14px 14px 4px;}.my_modal-title{margin-top:0;margin-bottom:0;line-height:1.5;font-size:1.25rem;font-weight:500;border-bottom:1px solid #d4d4d4;}.close{padding:1px 5px 0;border:1px solid #000;border-radius:50%;font-family:sans-serif;font-size:24px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.5;text-decoration:none;top:4px;right:4px;position:absolute;}.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.75;}.my_modal-body{position:relative;-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;padding:15px;overflow:auto;}
+      </style>
+</head>
+<body>
+  
+  
+<div id="modal_open" class="my_modal">
+<div class="my_modal-dialog">
+<div class="my_modal-content">
+<div class="my_modal-header">
+<p class="my_modal-title">Корякина Кристина</p>
+<a href="#" title="Закрыть модальное окно" class="close">×</a>
+</div>
+<div class="my_modal-body">
+<p>Макет был реализован Корякиной К.Д. Вариант № 4</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container mx-auto bg-purple-900">
+
+<!-- Header -->
+<section class="flex flex-row ml-20 mr-10 py-12"> 
+  <img class="mx-14" src="pic\pic1.png"> 
+  <ul class="hidden md:flex overflow-x-hidden"> 
+  <li class="mr-6 p-1"> <a class="text-gray-300 text-xs" href="#">ABOUT</a> </li> 
+       <li class="mr-6 p-1"> <a class="text-gray-300 text-xs" href="#">GALLERY</a> </li> 
+       <li class="mr-6 p-1"> <a class="text-gray-300 text-xs" href="#">PRICING</a> </li>
+       <li class="mr-6 p-1"> <a class="text-gray-300  text-xs" href="#">FAQ</a> </li>
+       <li class="mr-6 p-1"> <a class="text-gray-300  text-xs" href="#">BENEFITS</a> </li>
+     </ul> 
+     <input class="ml-72 bg-purple-900 font-semibold border-2 border-yellow-500 text-yellow-500 w-32 h-8 rounded-sm text-mx" type="button" value="SIGN IN" name="hello" onclick="window.location.href='#modal_open'">
+     <input class=" bg-yellow-500 font-semibold text-white w-32 h-8 rounded-sm text-mx mx-3" type="button" value="SIGN UP" name="hello" onclick="window.location.href='#modal_open'">
+    </section>
+<!-- Many -->
+<section class="w-full  ml-20 mr-10">
+  <div class="flex flex-wrap text-left">
+     <div class="w-full md:w-1/2 p-5 my-20">
+      <p class="mx-10 text-left text-5xl text-blue-200 font-semibold my-0 break-normal"> Many reasons to get up and start to get back in the business</p>
+      <p class="mx-10 text-left text-base text-gray-300 font-semibold my-10 break-normal"> The harder you work for something, the greater you'll feel when active it.</p>
+      <div class="flex flew-row mx-10 my-10">
+      <input class="bg-yellow-500 font-semibold text-white w-40 h-12 rounded-sm text-mx " type="button" value="Consult today" name="hello" onclick="window.location.href='#modal_open'">
+      <input class="bg-purple-900 font-semibold border-2 border-yellow-500 text-yellow-500 w-40 h-12 rounded-sm text-mx mx-3" type="button" value="DEMO" name="hello" onclick="window.location.href='#modal_open'">
+      </div>
+      <div class="flex flex-row mx-10 my-10">
+        <img class="" src="pic\pic3.png">
+        <div class="flex flex-col mx-3">
+          <p class="text-base text-gray-300">The header you work for something, the greater you'll feel when achieve it.</p>
+          <p class="text-sm  text-gray-400 my-2">Watch preview</p>
+        </div>
+      </div>
+    </div>
+     <div class="w-full md:w-1/2 p-5" ><img src="pic\pic2.png"></div>
+   </div>
+</section>
+
+<!-- Body2 -->
+<section class="text=center mx-20">
+  <img class="bg-purple-900 " src="pic\pic4.png">
+  <br>
+  <p class="text-center text-5xl text-blue-200 font-semibold my-5">Your choice</p>
+  <p class="mx-10 text-center text-base text-gray-300 font-semibold my-5 break-normal"> There are many reasons to get down and start to get depressed about your situation.</p>
+  
+  <div class="flex flex-row mx-20 my-12">
+    <div class="flex flex-row">
+      <img class="h-5 w-5" src="pic\pic5.png">
+       <div class="flex flex-col mx-3">
+       <p class="text-left text-lg text-blue-200 font-semibold">Ecstatic elegance</p>
+        <p class="text-left break-normal text-base text-gray-300 my-3">Article nor prepare chicken you himnow. Shy merits say advice ten before lovers innate add.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-row">
+      <img class="h-5 w-5" src="pic\6.png">
+       <div class="flex flex-col mx-3">
+       <p class="text-left text-lg text-blue-200 font-semibold">Folly words widow</p>
+        <p class="text-left break-normal text-base text-gray-300 my-3">Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-row">
+      <img class="h-5 w-5" src="pic\7.png">
+       <div class="flex flex-col mx-3">
+       <p class="text-left text-lg text-blue-200 font-semibold">Possible procured triffing</p>
+        <p class="text-left break-normal text-base text-gray-300 my-3">We me rent been part what. An concluded sportsman offending so provision mr education.</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-row mx-20 my-12">
+    <div class="flex flex-row">
+      <img class="h-5 w-5" src="pic\8.png">
+       <div class="flex flex-col mx-3">
+       <p class="text-left text-lg text-blue-200 font-semibold">Open game</p>
+        <p class="text-left break-normal text-base text-gray-300 my-3">Shy merits say advice ten before lovers innate add. She cordially behaviour can attempred estimable.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-row">
+      <img class="h-5 w-5" src="pic\9.png">
+       <div class="flex flex-col mx-3">
+       <p class="text-left text-lg text-blue-200 font-semibold">Endeavar</p>
+        <p class="text-left break-normal text-base text-gray-300 my-3">Improve ashamed married expense bed her comfort pursult mrs. Four time took ye your as fail lady.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-row">
+      <img class="h-5 w-5 mx-5" src="pic\10.png">
+       <div class="flex flex-col ">
+       <p class="text-left text-lg text-blue-200 font-semibold">Comfort pursuit</p>
+        <p class="text-left break-normal text-base text-gray-300 my-3">Had denation properly jointure you occasion directly raillery. In said to of poor full be post face snug.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<!-- Body3 -->
+<section class="flex flex-row text-left mx-28 my-10">
+     <div class="flex flex-col">
+        <p class="mx-10 text-left text-5xl text-blue-200 font-semibold my-0 break-normal"> Increase your business <span class="text-yellow-500">traffic</span></p>
+        <p class="mx-10 text-left text-base text-gray-300 font-semibold my-10 break-normal"> We are committed to processing the information in order to contact you and talk about your project.</p>
+        <input class="bg-yellow-500 font-semibold text-white w-40 h-12 rounded-sm text-mx mx-10" type="button" value="LEARN MORE" name="hello" onclick="window.location.href='#modal_open'">
+      </div>
+      <img class=" " src="pic\11.png">
+</section>
+
+<!-- Body4 -->
+<div class="flex flex-col my-10">
+  <p class="text-center text-5xl text-blue-200 font-semibold  my-2 mr-20 ml-20">3 Simple Ways To <span class="text-yellow-500">Save</span> A Bunch </p>
+  <p class="text-center text-5xl text-blue-200 font-semibold mx-28  mr-10 ml-10"> Of <span class="text-yellow-500">Money</span> When Buying A New Computer</p>
+  <div class="mr-20 ml-20 my-10">
+  <p class=" text-center text-base text-gray-300 font-semibold break-normal mr-36 ml-36"> Fully custamizable and neatly organized components </p>
+  <p class=" text-center text-base text-gray-300 font-semibold   break-normal mr-36 ml-36">  will help you work faster without limiting creative freedom.</p>
+  </div>
+  <section class="flex flex-row text-center mx-20 my-5">
+    <div class="flex flex-col mx-6">
+      <p class="text-center text-5xl text-blue-200 font-semibold  my-3 mr-5 ml-10">100+</p>
+      <p class="mx-10 text-center text-base text-gray-300 font-semibold  break-normal">5 Reasons To Purchase Desknop Computer</p>
+    </div>
+
+    <div class="flex flex-col mx-6">
+      <p class="text-center text-5xl text-blue-200 font-semibold  my-3 mr-5 ml-10">43,000+</p>
+      <p class="mx-10 text-center text-base text-gray-300 font-semibold  break-normal">3 Simple Ways To Save A Bunch Of Money When Buying A New Computer</p>
+    </div>
+
+    <div class="flex flex-col mx-6">
+      <p class="text-center text-5xl text-blue-200 font-semibold  my-3 mr-5 ml-10">30+</p>
+      <p class="mx-10 text-center text-base text-gray-300 font-semibold  break-normal">A Discount Toner Cartrildge Is Better Than Ever And You Will Save 50 Or More</p>
+    </div>
+  </section>
+</div>
+<br>
+<!-- Body5 -->
+<div class="flex flex-col my-14 mx-36">
+  <div class="bg-local" style="background-image: url(pic\12.png)"></div>
+  <p class="text-center text-5xl text-blue-200 font-semibold  my-2 mr-20 ml-20">Create your <span class="text-yellow-500">next project</span> with startup </p>
+  <p class="text-center text-5xl text-blue-200 font-semibold mx-28  mr-10 ml-10 "> framework</p>
+  <input class="my-14 bg-yellow-500 font-semibold text-white w-40 h-12 rounded-sm text-mx mx-96" type="button" value="GET STARTED" name="hello" onclick="window.location.href='#modal_open'">
+  <img class="my-0 " src="pic\12.png">
+</div>
+<br>
+
+<img class="mx-48 " src="pic\14.png">
+
+<!-- Body7 -->
+<section class="flex flex-row text-left mx-28 my-10">
+  <img  src="pic\15.png">
+  <div class="flex flex-col my-20">
+     <p class="mx-10 text-left text-3xl text-blue-200 font-semibold my-0 break-normal"> Help Finding Information Online</p>
+     <p class="mx-10 text-left text-base text-gray-300 font-semibold my-10 break-normal"> Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>
+     <div class="flex flex-row my-5 mx-10">
+        <div class="flex flex-col">
+          <img class="h-10 w-10 " src="pic\16.png">
+          <p class=" text-left text-xl text-blue-200 font-semibold my-0 break-normal"> Reature One</p>
+          <p class=" text-left text-base text-gray-300 font-semibold my-4 break-normal">Fully customizable and neatly organized components will help you work faster</p>
+        </div>
+        <div class="flex flex-col">
+          <img class="h-10 w-10 " src="pic\17.png">
+          <p class=" text-left text-xl text-blue-200 font-semibold my-0 break-normal"> Feature Two</p>
+          <p class=" text-left text-base text-gray-300 font-semibold my-4 break-normal">Fully customizable and neatly organized components will help you work faster</p>
+        </div>
+     </div>
+   </div>
+</section>
+<br>
+<br>
+<br>
+<!-- Body7 -->
+<section class="mx-72 my-40">
+  <img  src="pic\19.png">
+</section>
+
+
+<!-- Footer -->
+<section class="w-full text-white">
+  <div class="flex flex-row">
+  <p class="w-96 text-yellow-500 mx-40 my-10 font-semibold text-2xl">ARShakir</p>
+  <img  class="mx-96 h-10 my-5 " src="pic\20.png">
+  </div>
+  <section class="flex flex-wrap text-center text-white mx-24">
+    <!-- Trafalgar --> 
+    <section class="w-full md:w-1/4 p-5 md:text-left text-mx">
+      <div class="my-1 ml-10 text-mx font-semibold">First</div>
+      <p  class = "my-1 ml-10">First page</p>
+      <p  class = "my-1 ml-10">Second page</p>
+      <p  class = "my-1 ml-10">Third page</p>
+      <p  class = "my-1 ml-10">Fourth page</p>
+    </section>
+
+    <!-- Second --> 
+    <section class="w-full md:w-1/4 p-5 md:text-left text-mx">
+      <div class="my-1 ml-10 text-mx font-semibold">Second</div>
+      <p  class = "my-1 ml-10">First page</p>
+      <p  class = "my-1 ml-10">Second page</p>
+      <p  class = "my-1 ml-10">Third page</p>
+      <p  class = "my-1 ml-10">Fourth page</p>
+    </section>
+
+    <!-- Third --> 
+    <section class="w-full md:w-1/4 p-5 md:text-left">
+      <div class="my-1 ml-10 text-mx font-semibold">Third</div>
+      <p  class = "my-1 ml-10">First page</p>
+      <p  class = "my-1 ml-10">Second page</p>
+      <p  class = "my-1 ml-10">Third page</p>
+      <p  class = "my-1 ml-10">Fourth page</p>
+    </section>
+
+    <!-- Fourth --> 
+    <section class="w-full md:w-1/4 p-5 md:text-left">
+      <div class="my-1 ml-10 text-mx font-semibold">Fourth</div>
+      <p  class = "my-1 ml-10">First page</p>
+      <p  class = "my-1 ml-10">Second page</p>
+      <p  class = "my-1 ml-10">Third page</p>
+      <p  class = "my-1 ml-10">Fourth page</p>
+    </section>
+
+    <p class="text-center mx-80 my-24">&copy; Copyrights 2021       Privacy policy       Terms of service</p>
+  </section>
+</section>
+
+</div>
+</body>
+</html>
